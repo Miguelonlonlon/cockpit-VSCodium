@@ -1,0 +1,13 @@
+{
+    "requires": {
+        "cockpit": "137"
+    },
+
+    "tools": {
+        "index": {
+            "label": "Code"
+        }
+    },
+
+    "content-security-policy": "default-src 'self'; frame-src *; connect-src *; style-src 'self' 'unsafe-inline';"
+}
