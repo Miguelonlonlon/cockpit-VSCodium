@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const iframe = document.getElementById("code-frame");
+    const iframe = document.getElementById("codium-frame");
 
     // Dynamically determine the host and set the iframe URL
     const cockpitHost = window.location.hostname;
     const cockpitProtocol = window.location.protocol;
-    const vscodePath = `${cockpitProtocol}//${cockpitHost}:9091/`;
-    iframe.src = vscodePath;
+    const vscodiumPath = `${cockpitProtocol}//${cockpitHost}:9091/`;
+    iframe.src = vscodiumPath;
 
     // Resize the iframe to match the window size
     const resizeIframe = () => {
